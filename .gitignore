@@ -1,0 +1,9 @@
+# Files by VNote
+
+_v_recycle_bin
+*.vswp
+# _vnote.json
+
+
+# Vim
+*.swp
