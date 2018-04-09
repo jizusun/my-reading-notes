@@ -89,3 +89,28 @@ for year, city in zip(years[:10],cities):
 5. Permutations: `itertools.permutations(string)`
 6. Combinations: `itertools.combinations(string)`
 
+### 2.4 Comprehensions and generators
+
+#### Learning Objectives
+* Writing list, dist, and set comprehensions
+* Use Python generator expressions
+* Designing Python generators
+#### List/Set comprehension
+```python
+# Using loop
+results = []
+for city, year in zip(cities, years):
+    if int(year) > 1945:
+        results.append(city + ': ' + year)
+# f(element) for element in iterator if condition(element)
+results = [city + ': ' + year for city, year in zip(cities, years) if int(year) > 1945]
+# make python dict
+cities_by_year = {year: city for city, year in zip(cities, years)
+# set comprehension
+cities_after_1930 = {city for year,city in cities_by_year.items() if int(year) > 1930 }
+```
+
+
+### 2.5 Exploit Python Collecitons
+
+
