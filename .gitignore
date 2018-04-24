@@ -7,3 +7,5 @@ _v_recycle_bin
 
 # Vim
 *.swp
+
+src*

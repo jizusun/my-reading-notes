@@ -21,14 +21,17 @@ https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html
 
 ### The history of Redux
 *  Flux is an alternative to MVC, MVP, or MVVM
-* Scaliblity of MVC pattern
-![scaling of mvc pattern](https://user-images.githubusercontent.com/4011348/39079425-049d71fc-454d-11e8-9a27-8ff3bb66ea6d.png)
+* Scalability of MVC pattern
 
-* Scaliblity of Flux pattern: Unidirectional
+    ![scaling of mvc pattern](https://user-images.githubusercontent.com/4011348/39079425-049d71fc-454d-11e8-9a27-8ff3bb66ea6d.png)
 
-![scaling of flux pattern](https://user-images.githubusercontent.com/4011348/39079433-1d90cc72-454d-11e8-91f1-b4203460884c.png)
+* Scalability of Flux pattern: Unidirectional
 
-### How Redux works
+    ![scaling of flux pattern](https://user-images.githubusercontent.com/4011348/39079433-1d90cc72-454d-11e8-91f1-b4203460884c.png)
+
+## 1. What is redux
+
+### 1.2 How Redux works
 * Redux is a Flux libray
 * Only one store: "The single source of truth"
 * There's no need to for dispatcher
@@ -37,14 +40,37 @@ https://www.lynda.com/React-js-tutorials/Learning-Redux/540345-2.html
     * Pure functions
     * Immutability
     * Composition
-* Compostion with Reducer
-![image](https://user-images.githubusercontent.com/4011348/39092052-f54fa816-4635-11e8-94da-890661ecd944.png)
+* Composition with Reducer
 
-# Plan a Redux app
+    ![image](https://user-images.githubusercontent.com/4011348/39092052-f54fa816-4635-11e8-94da-890661ecd944.png)
 
-## 1. What is redux
+### 1.3 Plan a Redux app
+![image](https://user-images.githubusercontent.com/4011348/39092232-fd5834c8-463b-11e8-86be-e022c8de2c53.png)
+![image](https://user-images.githubusercontent.com/4011348/39092338-4e9ade60-463e-11e8-9f33-e8b4910c961d.png)
+
 
 ## 2. Understanding Reducers 
+### 2.1 Run Redux with Babel-node
+1. Dev environment setup
+```bash
+npm init
+npm install babel-cli --save-dev
+npm install babel-preset-latest --save-dev
+npm install babel-preset-stage-0 --save-dev
+```
+2.  Create a `.babelrc`
+```
+{
+    presets: ['latest', 'stage-0']
+}
+```
+
+### 2.2 Build your first reducer
+### 2.3 Create object reducers
+### 2.4 Create array reducers
+### 2.5 Composing reducers
+### 2.6 Challenge: Build reducers
+### 2.7 Combine reducers
 
 ## 3: The Store
 
