@@ -27,22 +27,28 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ## Standard Objects
 
-### Object
+### [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 #### Constructor
 * `{ nameValuePair1[, nameValuePair2,[, ... nameValuePairN] ] ] }`
-* `new Object([value])`
+* `new Object([value])`: create a wrapped object for the given value
 
 #### Properties
 * `Object.length`
-* `Object.prototype`
+* `Object.prototype`: not inheriting from this when created by `Object.create(null)`
 * `Object.prototype.constructor`
 * `Object.prototype.__proto__` (not standardized)
 
 #### Methods
-* `Object.assign()`
-* `Object.create()`
-* `Object.defineProperty()`
+* `Object.assign(target, ...sources)`
+    * to copy all enumerable own properties from one or more source objects to a target object
+    * uses `[[Get]]` on the source and `[[Set]]` on the target
+    * can be used for: shallow clone, merging objects
+* `Object.create(proto[, propertiesObject])`
+    - create a new object, using an existing object to provide the newly object's `_proto__`
+* `Object.defineProperty(obj, props)`
+    - `props` is an object whose own enumerable properties constitute descriptors to be defined or modified
+    - `configurable`, `enumerable`, `value`, `writable`, `get`, `set`
 * `Object.entries()`
 * `Object.freeze()`
 * `Object.getOwnPropertyDescriptor()`
@@ -65,6 +71,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 * `Object.prototype.toLocaleString()`
 * `Object.prototype.toString()`
 * `Object.prototype.watch()`
+
+### References
+* [Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+* [Introducing JavaScript objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
 
 ## Expression and operators
 ## Statements and declarations
