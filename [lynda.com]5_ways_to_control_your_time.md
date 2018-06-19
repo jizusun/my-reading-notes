@@ -58,3 +58,52 @@ https://www.lynda.com/JavaScript-tutorials/Four-Semesters-Computer-Science-5-Hou
 ### What prioritizing really means
 - Prior: how important they are 
 - Important but probably not urgent: for example your children
+
+### How to separate important from urgent
+
+### Eisenhower's matrix of tasks
+- "I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent" -- Dwight D. Eisenhower
+- Box format
+    1. Crisis(Do First): Do it now and do it properly
+    2. Hassle(Delegate): Spend minimum time on it
+    3. Progress(Schedule): Plan (and do) ahead
+    4. (Un)Necessary Evils(Don't Do): If it will get worse, delegate it or don't do it
+
+### Box 3 of Eisenhower's matrix
+
+### Is there more to life than planning?
+- Box 3 planing time can help you enjoy and achieve. It's not just about work and results.
+- Fun *is* important, and can fit into time management.
+
+### Is working longer hour a good idea?
+-  Longer hours provide a safety net that can decrease self-discipline.
+-  It would be quite disloyal to say "Nope, I always go home at five and I'm not gonna help with a company crisis, see you tomorrow, guys."
+
+### How to get more time for important things
+- Spend as much as time in box 3, and reduce the time spend in the other three boxes, mainly box 2 (hassle)
+- Do three little jobs
+    + box three awareness. Write down what percentage you think you spend on average on four boxes, and tomorrow, see how much time you actually get for box 3.
+    + Start a log of when you leave work.
+    + Stop taking work home.
+
+## 3. The 5 Ways to Control Your Time
+
+### Option 1: Say no at home
+
+### Option 1: Say no at work
+
+### Option 2: Use negotiation tactics
+
+### Option 3: Delegate to save time
+
+### Option 4: Improve you systems
+
+### Option 5: Can you be less fussy?
+
+### How to apply time-saving tactics
+
+## Conclusion
+
+### Next steps
+
+
